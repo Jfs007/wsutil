@@ -1,6 +1,6 @@
 
 
-let uid = 0;
+let uid = 0;;
 export function Dialogs(vm, componentName = '', target, options = {}) {
   if (!vm.$msgbox) throw new Error('需要依赖element-ui msgbox组件')
   const msgbox = vm.$msgbox;
