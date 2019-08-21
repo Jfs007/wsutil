@@ -48,6 +48,8 @@ function msgTransfer (evt, ws) {
 }
 // let wsEvent = [''];
 
+// 
+
 // https://cn.vuejs.org/v2/guide/plugins.html
 export default {
 
