@@ -4,10 +4,11 @@ export default function notify(title, body) {
   if (Notification) {
     Notification.requestPermission()
     if (Notification.permission === 'granted') {
-      console.log(title, 'bodu')
+      // console.log(title, 'bodu')
       new Notification(title, {
         body: body,
         // icon: 'mm1.jpg'
+        // 
       });
     }
     
