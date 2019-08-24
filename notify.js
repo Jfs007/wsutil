@@ -1,4 +1,4 @@
-
+// .
 export default function notify(title, body) {
   // console.log(Notification, 'Notification')
   if (Notification) {
