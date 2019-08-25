@@ -1,4 +1,5 @@
 // . ..
+console.log('文件执行=========')
 export default function notify(title, body) {
   // console.log(Notification, 'Notification')
   if (Notification) {
