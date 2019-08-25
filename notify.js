@@ -10,6 +10,7 @@ export default function notify(title, body) {
         body: body,
         // icon: 'mm1.jpg'
         
+
         // 
       });
 
